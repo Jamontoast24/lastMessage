@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(59, 59, 160);
+  background-color: rgb(231, 103, 39);
+}
+
+
+
+.container {
+  width: 400px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(74, 173, 152);
+  line-height:40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 28px 0 rgba(0, 0, 0, 0.5);
+}
+
+#submit {
+  width: 100%;
+  background-color: rgb(28, 43, 126);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4p
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
